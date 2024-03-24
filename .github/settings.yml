@@ -44,6 +44,7 @@ repository:
   enable_vulnerability_alerts: true
 
 # Branch protection rules
+# NOTE: Branch protection rules does not currently work: https://github.com/repository-settings/app/issues/857
 branches:
   - name: main
     protection:
