@@ -2,23 +2,17 @@ repository:
   # For this to work you need to have the following app installed and configured for all repositories https://github.com/repository-settings/app,
   # see https://github.com/repository-settings/app/blob/master/docs/configuration.md for available settings.
 
-  # The name of the repository. Changing this will rename the repository
-  name: qilin-open-source-project-starter-template
-
   # A short description of the repository that will show up on GitHub
-  description: A bare minimum set of files and configs every new open source project needs.
+  description: Add a short description for your new project.
 
   # A URL with more information about the repository
-  homepage: https://github.com/schalkneethling/open-source-project-starter-template
+  homepage: https://example.com
 
   # A comma-separated list of topics to set on the repository
   topics: github, template, open source, community, project template
 
   # The branch used by default for pull requests and when the repository is cloned/viewed.
   default_branch: main
-
-  # This repository is a template others can use to start a new repository.
-  is_template: true
 
   # Either true to enable the wiki for this repository or false to disable it.
   has_wiki: false
@@ -44,7 +38,7 @@ repository:
   enable_vulnerability_alerts: true
 
 # Branch protection rules
-# NOTE: Branch protection rules does not currently work: https://github.com/repository-settings/app/issues/857
+# NOTE: Branch protection rules do not currently work: https://github.com/repository-settings/app/issues/857
 branches:
   - name: main
     protection:
