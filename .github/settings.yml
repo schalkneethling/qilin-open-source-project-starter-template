@@ -43,8 +43,8 @@ repository:
   # vulnerability alerts.
   enable_vulnerability_alerts: true
 
-  # Branch protection rules
-  branches:
+# Branch protection rules
+branches:
   - name: main
     protection:
       # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
@@ -64,31 +64,32 @@ repository:
       # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
       restrictions: null
 
-  labels:
-    - name: p0
-      color: DE0F5A
-      description: Stop everything.
-    - name: p1
-      color: C23434
-      description: Top priority item.
-    - name: p2
-      color: C2BD34
-      description: To be addressed after top priority items.
-    - name: p3
-      color: 73C234
-      description: General maintenance. Prioritize during triage.
-    - name: p4
-      color: 34C2A9
-      description: Nice to have. Help welcomed.
-    - name: bug
-      color: DE0F5A
-      description: Something is not working as expected.
-    - name: enhancement
-      color: 0062F5
-      description: New feature or improvement
-    - name: help wanted
-      color: 8435D5
-      description: Open to everyone.
-    - name: good first issue
-      color: A954FF
+labels:
+  - name: p0
+    color: DE0F5A
+    description: Stop everything.
+  - name: p1
+    color: C23434
+    description: Top priority item.
+  - name: p2
+    color: C2BD34
+    description: To be addressed after top priority items.
+  - name: p3
+    color: 73C234
+    description: General maintenance. Prioritize during triage.
+  - name: p4
+    color: 34C2A9
+    description: Nice to have. Help welcomed.
+  - name: bug
+    color: DE0F5A
+    description: Something is not working as expected.
+  - name: enhancement
+    color: 0062F5
+    description: New feature or improvement
+  - name: help wanted
+    color: 8435D5
+    description: Open to everyone.
+  - name: good first issue
+    color: A954FF
+
       description: These are for first-time contributors only.
