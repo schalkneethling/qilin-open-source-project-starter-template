@@ -1,5 +1,7 @@
 # Qilin - Open Source project starter template
 
+![The image depicts a stylized white unicorn head with a flowing pink and purple mane, enclosed within a circular emblem or badge against a dark teal background with white stars or dots. The unicorn's single horn curves elegantly, representing the mythical creature's magical nature.](https://github.com/schalkneethling/qilin-open-source-project-starter-template/assets/10350960/a76fe36a-8dd9-471b-b2a3-2ea917a97314)
+
 A bare minimum set of files and configs every new open source project needs.
 
 > Read more about the [Qilin](https://en.wikipedia.org/wiki/Qilin#Qilin_as_unicorns) a type of Unicorn. Why a Unicorn? Unicorns are often seen as pure and protective beings with the power to heal and ward off evil.
