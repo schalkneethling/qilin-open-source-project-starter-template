@@ -4,6 +4,23 @@ A bare minimum set of files and configs every new open source project needs.
 
 > Read more about the [Qilin](https://en.wikipedia.org/wiki/Qilin#Qilin_as_unicorns) a type of Unicorn. Why a Unicorn? Unicorns are often seen as pure and protective beings with the power to heal and ward off evil.
 
+## Using the template
+
+1. If you intend to use the `settings.yml` file, please see the note below _before_ using the template to create a new repository.
+2. Click on the "Use this template" button and choose one of the available options.
+3. Customize every [required template](#required-templates) and address each TODO item.
+
+> Note: For the `settings.yml` file to take effect you will need to install and [configure the following app](https://github.com/repository-settings/app) for all your repositories. If you do not intend to use it, you can safely ignore or delete it.
+
+## Required Templates
+
+* [LICENSE](LICENSE)
+* [CONTRIBUTING.md](CONTRIBUTING.md)
+* [README-template.md](README-template.md)
+
+> Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
+as a template for your project README.
+
 ## License
 
 This project is licensed under [CC0 1.0 Universal](LICENSE) license.
