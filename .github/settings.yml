@@ -1,5 +1,6 @@
 repository:
-  # See https://docs.github.com/en/rest/repos/repos?apiVersion=latest#update-a-repository for available settings.
+  # For this to work you need to have the following app installed and configured for all repositories https://github.com/repository-settings/app,
+  # see https://github.com/repository-settings/app/blob/master/docs/configuration.md for available settings.
 
   # The name of the repository. Changing this will rename the repository
   name: qilin-open-source-project-starter-template
@@ -10,16 +11,14 @@ repository:
   # A URL with more information about the repository
   homepage: https://github.com/schalkneethling/open-source-project-starter-template
 
+  # A comma-separated list of topics to set on the repository
+  topics: github, template, open source, community, project template
+
   # The branch used by default for pull requests and when the repository is cloned/viewed.
   default_branch: main
 
   # This repository is a template others can use to start a new repository.
   is_template: true
-
-  # Specify which security and analysis features to enable or disable for the repository
-  security_and_analysis:
-    - secret_scanning: "enabled"
-    - secret_scanning_push_protection: "enabled"
 
   # Either true to enable the wiki for this repository or false to disable it.
   has_wiki: false
@@ -36,10 +35,60 @@ repository:
   # Delete head branch on merge
   delete_branch_on_merge: true
 
+  # Either `true` to enable automated security fixes, or `false` to disable
+  # automated security fixes.
+  enable_automated_security_fixes: true
+
+  # Either `true` to enable vulnerability alerts, or `false` to disable
+  # vulnerability alerts.
+  enable_vulnerability_alerts: true
+
+  # Branch protection rules
+  branches:
+  - name: main
+    protection:
+      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      required_pull_request_reviews:
+        # The number of approvals required. (1-6)
+        required_approving_review_count: 1
+        # Dismiss approved reviews automatically when a new commit is pushed.
+        dismiss_stale_reviews: true
+        # Blocks merge until code owners have reviewed.
+        require_code_owner_reviews: true
+      # Required. Require status checks to pass before merging. Set to null to disable
+      required_status_checks: null
+      # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
+      enforce_admins: false
+      # Prevent merge commits from being pushed to matching branches
+      required_linear_history: false
+      # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
+      restrictions: null
+
   labels:
+    - name: p0
+      color: DE0F5A
+      description: Stop everything.
+    - name: p1
+      color: C23434
+      description: Top priority item.
+    - name: p2
+      color: C2BD34
+      description: To be addressed after top priority items.
+    - name: p3
+      color: 73C234
+      description: General maintenance. Prioritize during triage.
+    - name: p4
+      color: 34C2A9
+      description: Nice to have. Help welcomed.
+    - name: bug
+      color: DE0F5A
+      description: Something is not working as expected.
+    - name: enhancement
+      color: 0062F5
+      description: New feature or improvement
     - name: help wanted
-      color: ffff54
+      color: 8435D5
       description: Open to everyone.
     - name: good first issue
-      color: ff8c00
+      color: A954FF
       description: These are for first-time contributors only.
