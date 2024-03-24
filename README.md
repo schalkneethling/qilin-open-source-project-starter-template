@@ -6,7 +6,7 @@ A bare minimum set of files and configs every new open source project needs.
 
 ## Using the template
 
-1. If you intend to use the `settings.yml` file, please see the note below _before_ using the template to create a new repository.
+1. If you intend to use the `.github/settings.yml` file, please see the note below _before_ using the template to create a new repository.
 2. Click on the "Use this template" button and choose one of the available options.
 3. Customize every [required template](#required-templates) and address each TODO item.
 
