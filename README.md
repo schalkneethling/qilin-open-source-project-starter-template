@@ -1,6 +1,8 @@
-# Open Source project starter template
+# Qilin - Open Source project starter template
 
-The bare minimum set of files and configs every new open source project needs.
+A bare minimum set of files and configs every new open source project needs.
+
+> Read more about the [Qilin](https://en.wikipedia.org/wiki/Qilin#Qilin_as_unicorns) a type of Unicorn. Why a Unicorn? Unicorns are often seen as pure and protective beings with the power to heal and ward off evil.
 
 ## License
 
