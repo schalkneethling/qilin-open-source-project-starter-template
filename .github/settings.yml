@@ -91,5 +91,4 @@ labels:
     description: Open to everyone.
   - name: good first issue
     color: A954FF
-
-      description: These are for first-time contributors only.
+    description: These are for first-time contributors only.
