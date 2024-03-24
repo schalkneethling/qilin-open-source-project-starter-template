@@ -29,47 +29,16 @@ include:
 --> 
 
 ## Contributing
-<!-- Template: https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md -->
 
 Our project welcomes contributions from any member of our community. To get
-started contributing, please see our [Contributor Guide](TODO: Link to
-CONTRIBUTING.md).
-
-## Scope
-<!-- If this section is too long, you might consider moving it to a SCOPE.md -->
-<!-- More information about creating your scope with links to examples -->
-<!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
-
-### In Scope
-
-[TODO: PROJECTNAME] is intended to [TODO: Core functionality]. As such, the
-project will implement or has implemented:
-
-* [TODO: High-level Item 1]
-* [TODO: High-level Item 2]
-* [TODO: High-level Item 3]
-
-
-### Out of Scope
-
-[TODO: PROJECTNAME] will be used in a cloud native environment with other
-tools. The following specific functionality will therefore not be incorporated:
-
-* [TODO: Excluded function 1]
-* [TODO: Excluded function 2]
-
-
-[TODO: PROJECTNAME] implements [TODO: List of major features, existing or
-planned], through [TODO: Implementation
-requirements/language/architecture/etc.]. It will not cover [TODO: short list
-of excluded items]
+started contributing, please see our [Contributor Guide](CONTRIBUTING.md).
 
 ## Communications
 
 <!-- Fill in the communications channels you actually use.  These should all be public channels anyone
 can join, and there should be several ways that users and contributors can reach project maintainers. 
-If you have recurring/regular meetings, list those or a link to a publicy-readable calendar so that
-prospective contributors know when and where to engage with you. -->
+If you have recurring/regular meetings, list those or a link to a publicly-readable calendar so
+prospective contributors or end users know when and where to engage with you. -->
 
 [TODO: Details (with links) to meetings, mailing lists, Slack, and any other communication channels]
 
@@ -82,14 +51,12 @@ prospective contributors know when and where to engage with you. -->
 
 ## Resources
 
-[TODO: Add links to other helpful information (roadmap, docs, website, etc.)]
+[TODO: Add links to other helpful information (blogs, tutorials, videos, roadmap, docs, website, etc.)]
 
 ## License
 
-<!-- Template: https://github.com/cncf/project-template/blob/main/LICENSE -->
-This project is licensed under [TODO: Add name of license and link to your LICENSE file]
+This project is licensed under [TODO: Add the name of the license and link to your LICENSE file]
 
-## Conduct
+## Code of Conduct
 
-<!-- Template: https://github.com/cncf/project-template/blob/main/CODE_OF_CONDUCT.md -->
-We follow the CNCF Code of Conduct [TODO: Insert link to your CODE_OF_CONDUCT.md file].
+We follow the Contributor Covenant [Code of Conduct](CODE_OF_CONDUCT.md).
