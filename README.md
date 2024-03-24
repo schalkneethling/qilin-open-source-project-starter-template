@@ -15,9 +15,10 @@ A bare minimum set of files and configs every new open source project needs.
 
 ## Required Templates
 
-* [LICENSE](LICENSE)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [README-template.md](README-template.md)
+- [LICENSE](LICENSE)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [README-template.md](README-template.md)
 
 > Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
 as a template for your project README.
