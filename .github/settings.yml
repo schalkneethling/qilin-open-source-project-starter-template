@@ -1,0 +1,45 @@
+repository:
+  # See https://docs.github.com/en/rest/repos/repos?apiVersion=latest#update-a-repository for available settings.
+
+  # The name of the repository. Changing this will rename the repository
+  name: qilin-open-source-project-starter-template
+
+  # A short description of the repository that will show up on GitHub
+  description: A bare minimum set of files and configs every new open source project needs.
+
+  # A URL with more information about the repository
+  homepage: https://github.com/schalkneethling/open-source-project-starter-template
+
+  # The branch used by default for pull requests and when the repository is cloned/viewed.
+  default_branch: main
+
+  # This repository is a template others can use to start a new repository.
+  is_template: true
+
+  # Specify which security and analysis features to enable or disable for the repository
+  security_and_analysis:
+    - secret_scanning: "enabled"
+    - secret_scanning_push_protection: "enabled"
+
+  # Either true to enable the wiki for this repository or false to disable it.
+  has_wiki: false
+
+  # Disable squash merges on GitHub
+  allow_squash_merge: false
+
+  # Disable rebase merges on GitHub
+  allow_rebase_merge: false
+
+  # Enable auto merge
+  allow_auto_merge: true
+
+  # Delete head branch on merge
+  delete_branch_on_merge: true
+
+  labels:
+    - name: help wanted
+      color: ffff54
+      description: Open to everyone.
+    - name: good first issue
+      color: ff8c00
+      description: These are for first-time contributors only.
