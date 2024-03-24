@@ -8,7 +8,8 @@ A bare minimum set of files and configs every new open source project needs.
 
 1. If you intend to use the `.github/settings.yml` file, please see the note below _before_ using the template to create a new repository.
 2. Click on the "Use this template" button and choose one of the available options.
-3. Customize every [required template](#required-templates) and address each TODO item.
+3. Once your new project is created, customize every [required template](#required-templates) and address each TODO item.
+4. If you use the settings app, please update the `description`, `homepage`, and `topics` entries.
 
 > Note: For the `settings.yml` file to take effect you will need to install and [configure the following app](https://github.com/repository-settings/app) for all your repositories. If you do not intend to use it, you can safely ignore or delete it.
 
