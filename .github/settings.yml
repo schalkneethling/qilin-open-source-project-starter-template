@@ -1,15 +1,6 @@
 repository:
-  # For this to work you need to have the following app installed and configured for all repositories https://github.com/repository-settings/app,
+  # For this to work, you need to have the following app installed and configured for all repositories https://github.com/repository-settings/app,
   # see https://github.com/repository-settings/app/blob/master/docs/configuration.md for available settings.
-
-  # A short description of the repository that will show up on GitHub
-  description: A bare minimum set of files and configs every new open source project needs.
-  
-  # A URL with more information about the repository
-  homepage: https://github.com/schalkneethling/qilin-open-source-project-starter-template
-
-  # A comma-separated list of topics to set on the repository
-  topics: github, template, open source, community, project template
 
   # The branch used by default for pull requests and when the repository is cloned/viewed.
   default_branch: main
@@ -42,7 +33,7 @@ repository:
 branches:
   - name: main
     protection:
-      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      # Required. Require at least one approving review on a pull request before merging. Set to null to disable.
       required_pull_request_reviews:
         # The number of approvals required. (1-6)
         required_approving_review_count: 1
